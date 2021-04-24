@@ -24,10 +24,10 @@ function NavBar({
 }) {
   return (
     <div>
-      <Navbar color="dark" dark expand="sm" fixed="top">
+      <Navbar color="dark" expand="sm" fixed="top">
         <NavbarBrand href="/">
-          <img src="/logo.svg" alt="Logo" className="logo" />
-          NextJS BS 4
+          <img src="https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2018/05/DigitalIndia.jpg" alt="Logo" className="logo" />
+          &nbsp;&nbsp;Help India Breathe
         </NavbarBrand>
         <NavbarToggler onClick={toggle} color="dark" />
         <Collapse isOpen={isOpen} navbar>
@@ -45,37 +45,7 @@ function NavBar({
                 ></i>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/page/typography">Typography</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Pages
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem tag="div">
-                  <NavLink href="/card/posts" className="text-primary">
-                    Cards
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem tag="div">
-                  <NavLink href="/table/tables" className="text-primary">
-                    Tables
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem tag="div">
-                  <NavLink href="/form/buttons" className="text-primary">
-                    Buttons
-                  </NavLink>
-                </DropdownItem>
-                {/* <DropdownItem divider /> */}
-                <DropdownItem tag="div">
-                  <NavLink href="/form/forms" className="text-primary">
-                    Forms
-                  </NavLink>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            
           </Nav>
           <UncontrolledDropdown inNavbar>
             <DropdownToggle caret nav className="text-secondary">

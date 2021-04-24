@@ -4,8 +4,15 @@ const MENUS = [
     name: 'dashboard',
     as: 'a',
     href: '/dashboard/dashboard',
-    label: 'Dashboard',
-    icon: 'fas fa-chart-pie',
+    label: 'About',
+    icon: 'fas fa-bullseye',
+  },
+  {
+    name: 'Ask For Help',
+    as: 'a',
+    href: '/form/forms',
+    label: 'Ask for Help',
+    icon: 'fas fa-clone',
   },
   {
     name: 'cards',
@@ -83,10 +90,10 @@ const SUBMENUS = [
     ],
   },
   {
-    name: 'forms',
+    name: 'Ask For Help',
     as: 'a',
     href: '/form/forms',
-    label: 'Forms',
+    label: 'Ask for Help',
     icon: '',
   },
   {
